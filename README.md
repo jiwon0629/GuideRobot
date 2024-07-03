@@ -55,8 +55,8 @@ Anaconda 가상환경과 Visual Studio Code를 활용하여 개발 예정.
 ### 프로젝트 필요 조건  
 - Git과 github을 이용한 협업 예정  
 - Android Studio, C, Python, Roboflow를 이용한 상황인지에 대한 로봇 행동 구현 예정 (변동 가능성 有)  
+2024.06.24. ~ 진행중
 
-2024.06.24. ~ 
 <hr>
 
 2024.7.2.   
