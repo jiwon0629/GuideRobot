@@ -68,6 +68,28 @@ WAP server를 이용하기
 <hr>
 
 2024.7.4.  
-mariaDB, wampserver, svn설치  
+mariaDB, wampserver, MySQL, svn설치  
 svn 서버 연결(코드 공유 가능)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
