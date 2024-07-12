@@ -71,7 +71,14 @@ WAP server를 이용하기
 mariaDB, wampserver, MySQL, svn설치  
 svn 서버 연결(코드 공유 가능)  
 
+<hr>
 
+2024.7.9.  
+Flutter를 이용하여 실시간 스트리밍 가능한 기능 앱 구현
+
+<hr>
+
+2024.7.11.  
 
 
 
