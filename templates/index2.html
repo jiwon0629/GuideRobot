@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Depth Camera Stream</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        .video-stream, .video-list, .video-playback {
+            flex: 1;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Depth Camera Stream</h1>
+    <div class="container">
+        <div class="video-stream">
+            <h2>Live Stream</h2>
+            <img src="{{ url_for('video_feed') }}" alt="Video stream not available" width="100%">
+        </div>
+        <div class="video-list">
+            <h2>Saved Videos</h2>
+            <ul>
+                {% for file in files %}
+                    <li><a href="{{ url_for('video', filename=file) }}" target="video-frame">{{ file }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="video-playback">
+            <h2>Video Playback</h2>
+            <iframe name="video-frame" width="100%" height="480px"></iframe>
+        </div>
+    </div>
+</body>
+</html>
